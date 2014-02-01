@@ -1,0 +1,85 @@
+/*MAIN ENTER PAGE CSS*/
+html {
+	background: black;
+	width:900px;
+	height:452px;
+}
+body {
+	position: absolute;
+	width:900px;
+	left:0;
+	right:0;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+	position: absolute;
+	font-family:'HelveticaNeue-UltraLight';
+	color:white;
+	font-weight: 300;
+	font-size: 50px;
+	text-align: center;
+	right:0;
+	left:0;
+	margin-right: auto;
+	margin-left: auto;
+}
+#pol {
+	position: absolute;
+	top:200px;
+	left: 150px;
+}
+
+#eng {
+	position: absolute;
+	top:200px;
+	left: 600px;
+}
+#poltext {
+	position: absolute;
+	top:215px;
+	left: 200px;
+	color:white;
+	font-family: 'HelveticaNeue-UltraLight';
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+}
+#engtext {
+	color:white;
+	font-family: 'HelveticaNeue-UltraLight';
+	font-size: 24px;
+	font-weight: 300;
+	position: absolute;
+	top:215px;
+	left:645px;
+	text-align: center;
+}
+#beta {
+	position: relative;
+	font-family: 'HelveticaNeue-UltraLight';
+	color:white;
+	text-align: center;
+	font-size: 24px
+}
+#copy {
+	position: relative;
+	font-family: 'HelveticaNeue-UltraLight';
+	color:white;
+	text-align: center;
+	font-size: 12px;
+}
+#choosepl {
+	position: absolute;
+	top:215px;
+	left:417px;
+	font-family: 'HelveticaNeue-UltraLight';
+	color:white;
+}
+#chooseeng {
+	font-family: 'HelveticaNeue-UltraLight';
+	color:white;
+	position: absolute;
+	top:235px;
+	left:405px;
+}

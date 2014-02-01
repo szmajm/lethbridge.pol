@@ -1,0 +1,44 @@
+a {
+	text-decoration: none;
+	color:white;
+	font-family:Helvetica;
+}
+
+.menubar {
+	height:50px;
+	width:12%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	background-color: #3f3636;
+	float:left;
+}
+.menubar:hover {
+	background-color:#565D68;
+}
+#ledge {
+	background-color:#3f3636;
+	height:50px;
+	width:8%;
+	float:left;
+}
+#redge {
+	background-color:#3f3636;
+	height:50px;
+	width:8%;
+	float:left;
+}
+#sticker {
+	position: absolute;
+	z-index: 10;
+	width:900px;
+	right:0;
+	left: 0;
+	top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.link {
+	text-decoration: underline;
+	color:black;
+}

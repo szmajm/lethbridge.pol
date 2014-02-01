@@ -1,0 +1,43 @@
+.caldays {
+	font-family:'HelveticaNeue-Light';
+	font-weight: 300;
+	color:black;
+	width:100px;
+	height:20px;
+}
+.calstyle {
+	font-family:'HelveticaNeue-Light';
+	font-weight: 300;
+	color:black;
+}
+table {
+	position: relative;
+	width:900px;
+	top:110px;
+}
+tr {
+	border: 1px solid black;
+	width:100px;
+	height:100px;
+	text-align: left;
+	vertical-align: top;
+}
+td {
+	border: 1px solid black;
+	background: white;
+	opacity: 0.75;
+	width:100px;
+}
+#month {
+	position:absolute;
+	top:40px;
+	left:780px;
+	font-family:'HelveticaNeue-UltraLight';
+	font-size:32px;
+	color:black;
+	font-weight:300;
+	z-index: 0;
+}
+#empty {
+	empty-cells: hide;
+}

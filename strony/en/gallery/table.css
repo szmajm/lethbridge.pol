@@ -1,0 +1,29 @@
+/*To jest tylko dla tabele na stronie galeria
+Każde zdjęcie małe muśi miec WIDTH:220px i HEIGHT:120px*/
+.osoby {
+	font-style: italic;
+	display: block;
+}
+#tabela {
+	position: relative;
+	left:50px;
+	width:300px;
+	height: 400px;
+	border: 1px solid black;
+	background: white;
+	text-align: center;
+}
+#tabela td {
+	border: 1px solid black;
+	width:100px;
+}
+#gallery #duza{
+	position: absolute;
+	top:225px;
+	left:500px;
+}
+#gallery #mala{
+	position: absolute;
+	top:400px;
+	left:500px;
+}

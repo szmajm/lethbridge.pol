@@ -1,0 +1,68 @@
+/*CSS theme for every page*/
+
+/*Nie dotykaj*/
+html {
+	height:150%px;
+	background:darkred;
+}
+/*To jest główny tytuł*/
+#maintitle {
+	position:absolute;
+	top:-45px;
+	left:150px;
+	font-family:'HelveticaNeue-UltraLight';
+	font-size:64px;
+	color:white;
+	font-weight:300;
+	z-index: 4;
+}
+/*To jest główna strona, to gdzie jest text i zdjęcia*/
+.bodybkg {
+	position:absolute;
+	height:150%px;
+	width:900px;
+	background:lightgray;
+	left:0;
+	right:0;
+	top:0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Główne zdjęcia naraże*/
+#titleimage {
+	position: relative;
+	width:900px;
+	z-index: 0;
+}
+#herb {
+	position:absolute;
+	top:5px;
+	left:5px;
+	width:140px;
+}
+.ipsum {
+	position: relative;
+	left:10px;
+	font-family:'HelveticaNeue-UltraLight';
+	font-weight:300;
+	font-size:36px;
+	width:800px;
+}
+.lorem {
+	position: relative;
+	left:50px;
+	font-family:'HelveticaNeue-Light';
+	font-weight:300;
+	font-size:18px;
+	width:800px;
+	text-align:justify;
+}
+footer {
+	position: absolute;
+	top:100%;
+	left:25%;
+	font-size:12px;
+	color:white;
+	font-family:'HelveticaNeue-Light';
+	text-align: center;
+}
