@@ -1,0 +1,18 @@
+<!DOCTYPE CSS>
+/*This will add the HelveticaNeue-Light and HelveticaNeue-UltraLight*/
+@font-face {
+font-family: 'HelveticaNeue-Light';
+src: url('fonts/abc-font.eot'); /* IE9 Compat Modes */
+src: url('fonts/abc-font.eot?#iefix')format('embedded-opentype'); /* IE6-IE8 */
+     url('fonts/abc-font.woff') format('woff'); /* Modern Browsers */
+     url('fonts/abc-font.ttf')  format('truetype'); /* Safari, Android, iOS */
+     url('fonts/abc-font.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+font-family: 'HelveticaNeue-UltraLight';
+src: url('fonts/abc-font.eot'); /* IE9 Compat Modes */
+src: url('fonts/abc-font.eot?#iefix') format('embedded-opentype'); /* IE6-IE8 */
+     url('fonts/abc-font.woff') format('woff'); /* Modern Browsers */
+     url('fonts/abc-font.ttf')  format('truetype'); /* Safari, Android, iOS */
+     url('fonts/abc-font.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
